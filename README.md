@@ -1,1 +1,5 @@
-# helm-k-rail
+# What is this?
+
+This repo provides a means to publish a helm chart for https://github.com/cruise-automation/k-rail
+
+Further details at https://medium.com/cruise/securing-kubernetes-with-k-rail-5f77a1a11174
