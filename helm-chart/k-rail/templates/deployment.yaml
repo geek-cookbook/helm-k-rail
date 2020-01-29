@@ -3,6 +3,13 @@
 {{- $cert := genSignedCert $cn nil nil 3650 $ca -}}
 ---
 apiVersion: v1
+kind: Namespace
+metadata:
+  name: {{ .Release.Namespace }}
+  labels:
+    name: {{ .Release.Namespace }}
+---
+apiVersion: v1
 kind: Secret
 metadata:
   name: k-rail-cert
