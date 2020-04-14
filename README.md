@@ -9,12 +9,12 @@ Further details at https://medium.com/cruise/securing-kubernetes-with-k-rail-5f7
 1. Install the repo:
 
 ```
-helm repo add funkypenguin https://funkypenguin.github.io/helm-charts
+helm repo add funkypenguin-k-rail https://funkypenguin.github.io/helm-k-rail/
 helm repo update
 ```
 
 2. Install the chart:
 
 ```
-helm install funkypenguin/k-rail
+helm install funkypenguin-k-rail/k-rail
 ```
