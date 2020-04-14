@@ -1,0 +1,13 @@
+apiVersion: v1
+entries:
+  k-rail:
+  - apiVersion: v1
+    appVersion: 1.5.0
+    created: "2020-04-14T21:05:26.688470955Z"
+    description: A Helm chart for Kubernetes
+    digest: 1f2ccfb6fd5dc31201482c184a9a887239cbc5babbb2242b88e167a1846d5c46
+    name: k-rail
+    urls:
+    - https://github.com/funkypenguin/helm-k-rail/releases/download/k-rail-1.5.0/k-rail-1.5.0.tgz
+    version: 1.5.0
+generated: "2020-04-14T21:05:26.582013357Z"
