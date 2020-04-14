@@ -3,10 +3,11 @@ replicaCount: 3
 
 # Set this to 'Fail if you wish that resources apply fail if k-rail is unreachable.
 failurePolicy: Fail
+#reinvocationPolicy: IfNeeded
 
 image:
   repository: cruise/k-rail
-  tag: release-v1.3.1
+  tag: release-v1.5.0
   pullPolicy: IfNotPresent
 
 resources:
@@ -92,6 +93,12 @@ config:
       enabled: True
       report_only: False
     - name: "ingress_require_ingress_exemption"
+      enabled: True
+      report_only: False
+    - name: "ingress_unique_ingress_host"
+      enabled: True
+      report_only: False
+    - name: "persistent_volume_no_host_path"
       enabled: True
       report_only: False
 
